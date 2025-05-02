@@ -120,15 +120,6 @@ npx cypress run
 ### Custom Commands
 
 * Defined in `cypress/support/commands.js`
-* Example:
-
-  ```js
-  Cypress.Commands.add('acceptCookiesBanner', () => {
-    cy.get('#onetrust-accept-btn-handler', { timeout: 10000 })
-      .should('be.visible')
-      .click({ force: true });
-  });
-  ```
 * Automatically stub global `axon` in support files to prevent errors
 
 ## Contributing
@@ -141,12 +132,5 @@ npx cypress run
 
 Please follow existing patterns for page objects, fixtures, and test naming.
 
-## License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
-
 ## Author
-
-**Burak Tuna** - QA Automation Engineer
-
-Contact: [buraktuna1993@example.com](mailto:buraktuna1993@example.com)
+Burak Tuna
