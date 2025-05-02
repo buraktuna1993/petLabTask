@@ -1,0 +1,21 @@
+{
+  "name": "petlab-qa-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Burak Tuna",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axon": "^2.0.3",
+    "cypress": "^14.3.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-real-events": "^1.14.0",
+    "mocha": "^11.2.2"
+  }
+}
